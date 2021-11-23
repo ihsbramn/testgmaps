@@ -45,7 +45,7 @@
         <th scope="row"><?php echo $no++ ?></th>
         <td><?php echo $row['h_name']; ?></td>
         <td><?php echo $row['h_description']; ?></td>
-        <td><iframe src="<?php echo $row['h_maps']; ?>" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+        <td><iframe src="<?php echo $row['h_maps']; ?>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
         </tr>
     </tbody>
     <?php
